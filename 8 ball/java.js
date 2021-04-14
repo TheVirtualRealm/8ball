@@ -1,8 +1,11 @@
 function MagicResponse(){
     let randomNumber = Math.floor(Math.random() * 11);
     var input = document.getElementById('Question').value;
-    document.getElementById('questionAsked').innerHTML = ('You have asked a question ' + input);
+    document.getElementById('questionAsked').innerHTML = ('You have asked the question: ' + input);
     console.log(randomNumber)
+  
+        
+   
 
 switch(randomNumber){
     case 0:
@@ -43,7 +46,7 @@ switch(randomNumber){
 
         case 6:
         console.log("absoltely not")
-        document.getElementById("response").innerHTML=("absoltely not");
+        document.getElementById("response").innerHTML=("absolutely not");
         break;
 
 
